@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PandaCard</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <style>
+      h2 {
+        font-family: "VT323";
+        font-weight: bolder;
+        font-size: xx-large;
+      }
+
+      #pandaimg {
+        width: 270px;
+        height: 180px;
+        border-radius: 50%;
+        margin: 15px;
+      }
+
+      #pandaCard {
+        border: 2px solid white;
+        width: 300px;
+        height: 400px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        display: inline-block;
+      }
+
+      #stars {
+        margin-left: 80px;
+        color: black;
+      }
+
+      .name {
+        font-family: "VT323";
+        color: #b6bc60;
+        text-align: center;
+        font-size: xx-large;
+        padding: 10px;
+        margin: 0;
+      }
+
+      .desc {
+        text-align: center;
+        padding: 3px;
+        margin: 0;
+        color: grey;
+      }
+
+      .year {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Title</h1>
+    <h2>Panda Card</h2>
+    <div id="pandaCard">
+      <img
+        id="pandaimg"
+        src="https://t4.ftcdn.net/jpg/05/54/52/13/360_F_554521329_ngmDQSjSrUSRnbK2xK0bkcprsinG9Xdv.jpg"
+        alt="panda"
+      />
+
+      <p class="name"><strong>John Doe</strong></p>
+      <p class="desc">Computer Science 1</p>
+      <p class="desc">Computer Science 2</p>
+      <p class="year">Year: 3</p>
+
+      <div id="stars">
+        <span class="material-symbols-outlined">star</span>
+        <span class="material-symbols-outlined">star</span>
+        <span class="material-symbols-outlined">star</span>
+        <span class="material-symbols-outlined">star</span>
+        <span class="material-symbols-outlined">star</span>
+      </div>
+    </div>
+  </body>
 </html>
